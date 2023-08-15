@@ -19,9 +19,9 @@ public class Application {
         SpringApplication.run(Application.class, args);
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/");
     String home() {
-        return config.getMessage();
+        return config.getMessage()
     }
 
 }
