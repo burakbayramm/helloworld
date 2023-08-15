@@ -8,3 +8,4 @@ message: hello development
 ---
 spring.profiles: kubernetes
 message: hello kubernetes
+deneme deneme deneme
